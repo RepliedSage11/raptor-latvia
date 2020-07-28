@@ -599,7 +599,6 @@ section
 	transform: translateY(-50%);
 	right: 60px;
 	z-index: 1;
-	margin-right: -5px;
 }
 .header_social ul li
 {
