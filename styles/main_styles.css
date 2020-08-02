@@ -53,7 +53,7 @@ Global Styles
 }
 body
 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -74,7 +74,7 @@ ul
 }
 p
 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 400;
@@ -286,14 +286,28 @@ section
 {
 	color: #FFFFFF;
 }
-.button:hover a
-{
-	color: #FFFFFF;
-}
 .button_light:hover a
 {
 	color: #1b1b1b;
 }
+
+
+.button_dark a {
+	color: #1b1b1b;
+	font-weight: 400;
+}
+
+.button_dark::after {
+    background: #1d1d1d;
+}
+
+.button_dark:hover a{
+	color:white;
+}
+
+
+
+
 
 /*********************************
 3. Header
@@ -580,6 +594,7 @@ section
 }
 .footer_background
 {
+	background-image:url(../images/footer.jpg);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -740,6 +755,15 @@ Home Page
 	background-size: cover;
 	background-position: center center;
 }
+.home_slider_background_1 {
+	background-image:url(../images/homeMainPic.png); /* remove later */
+}
+.home_slider_background_2 {
+	background-image:url(../images/home_slider_1.jpg); /* remove later */
+}
+.home_slider_background_3 {
+	background-image:url(../images/home_slider_1.jpg); /* remove later */
+}
 .home_slider_content_container
 {
 	position: absolute;
@@ -749,10 +773,11 @@ Home Page
 }
 .home_slider_content
 {
-	max-width: 580px;
+	max-width: 730px;
 }
 .home_slider_title
 {
+
 	font-size: 60px;
 	font-weight: 600;
 	color: #FFFFFF;
@@ -827,19 +852,28 @@ Home Page
 	z-index: 2;
 	background-color: white;
 	padding-top: 79px;
+
 }
 
 .about_title {
 	font-size: 30px;
 	font-weight: 500;
 	color: #1b1b1b;
-	padding-bottom: 49px;
+	padding-bottom: 10px;
+}
+
+.about_title_border {
+	height: 3px;
+	width: 120px;
+	background-color: rgb(12, 24, 10);
+	margin: 0 auto;
 }
 
 .about_text {
+	padding-top: 36px;
 	font-size: 18px;
 	line-height: 1.8;
-	color: grey;
+	color: rgb(128, 128, 128);
 }
 
 /*********************************
@@ -862,7 +896,22 @@ Home Page
 	z-index: 2;
 }
 
+.icon_boxes_title {
+	font-size: 30px;
+	font-weight: 500;
+	color: #1b1b1b;
+	padding-bottom: 10px;
+}
+
+.icon_boxes_title_border {
+	height: 3px;
+	width: 80px;
+	background-color: rgb(12, 24, 10);
+	margin: 0 auto;
+}
+
 .icon_box_row {
+	padding-top: 64px;
 	padding-bottom: 99px;
 }
 
@@ -878,20 +927,18 @@ Home Page
 	margin-left: auto;
 	margin-right: auto;
 }
-.icon_box_image img
-{
-	max-width: 100%;
-}
+
 .icon_box_title
 {
 	font-size: 18px;
-	font-weight: 500;
+	font-weight: 400;
 	color: #1b1b1b;
-	margin-top: 33px;
+	margin-top: 53px;
 }
-.icon_box_text
-{
-	margin-top: 20px;
+
+.icon_boxes_button {
+	margin: 0 auto;
+
 }
 
 

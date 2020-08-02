@@ -505,36 +505,22 @@ section
 {
 	width: 580px;
 }
-.breadcrumbs ul li
+.breadcrumbs p
 {
 	display: inline-block;
 	position: relative;
-	font-size: 14px;
+	font-size: 26px;
 	font-weight: 500;
-	color: #e95a5a;
+	color: white;
 }
-.breadcrumbs ul li:not(:last-child)::after
-{
-	display: inline-block;
-	content: '/';
-	margin-left: 10px;
-	margin-right: 6px;
-	color: #FFFFFF;
-}
+
 .breadcrumbs ul li a
 {
-	font-size: 14px;
-	font-weight: 500;
-	color: #FFFFFF;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
+
 }
 .breadcrumbs ul li a:hover
 {
-	color: #e95a5a;
+
 }
 
 /*********************************
@@ -640,6 +626,10 @@ section
 {
 	color: #6c6a74;
 	margin-left: 8px;
+}
+.contact_info_section ul li .second_phone
+{
+	margin-left: 58px;
 }
 .map_row
 {
