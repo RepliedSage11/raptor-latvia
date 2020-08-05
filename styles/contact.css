@@ -514,14 +514,6 @@ section
 	color: white;
 }
 
-.breadcrumbs ul li a
-{
-
-}
-.breadcrumbs ul li a:hover
-{
-
-}
 
 /*********************************
 6. Contact
@@ -600,7 +592,7 @@ section
 }
 .contact_info_section:not(:first-child)
 {
-	margin-top: 74px;
+	margin-top: 84px;
 }
 .contact_info_title
 {
@@ -610,7 +602,7 @@ section
 }
 .contact_info_section ul
 {
-	margin-top: 46px;
+	margin-top: 24px;
 }
 .contact_info_section ul li
 {

@@ -15,6 +15,7 @@ Home Page:
 	2. Home
 	3. About
 	4. Icon Boxes
+	5. Top Products
 
 Shop Page:
 	1. Products
@@ -53,7 +54,7 @@ Global Styles
 }
 body
 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -74,7 +75,7 @@ ul
 }
 p
 {
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 400;
@@ -241,7 +242,7 @@ section
 	display: block;
 	position: relative;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
 	line-height: 57px;
 	color: #1b1b1b;
 	background: none;
@@ -851,8 +852,7 @@ Home Page
 .about {
 	z-index: 2;
 	background-color: white;
-	padding-top: 79px;
-
+	padding: 89px 0 144px 0;
 }
 
 .about_title {
@@ -881,38 +881,32 @@ Home Page
 *********************************/
 
 
-.border {
-	width: 100%;
-	border-top: solid 2px #e3e3e3;
-	margin-bottom: 99px;
-}
+
 
 .icon_boxes
 {
-	width: 100%;
-	padding-top: 99px;
-	padding-bottom: 19px;
-	background: #FFFFFF;
 	z-index: 2;
+	width: 100%;
+	padding: 119px 0 144px 0;
+	background-color: #222222;
 }
 
 .icon_boxes_title {
 	font-size: 30px;
 	font-weight: 500;
-	color: #1b1b1b;
+	color: white;
 	padding-bottom: 10px;
 }
 
 .icon_boxes_title_border {
 	height: 3px;
 	width: 80px;
-	background-color: rgb(12, 24, 10);
+	background-color: rgb(255, 255, 255);
 	margin: 0 auto;
 }
 
 .icon_box_row {
 	padding-top: 64px;
-	padding-bottom: 99px;
 }
 
 .icon_box
@@ -920,29 +914,53 @@ Home Page
 	width: 100%;
 	text-align: center;
 }
-.icon_box_image
-{
-	width: 75px;
-	height: 75px;
-	margin-left: auto;
-	margin-right: auto;
+
+.icon_box_image {
+	height: 100px;
 }
+
+.icon_box_image img {
+	width: 100px;
+
+} 
 
 .icon_box_title
 {
 	font-size: 18px;
 	font-weight: 400;
-	color: #1b1b1b;
+	color: white;
 	margin-top: 53px;
 }
 
 .icon_boxes_button {
 	margin: 0 auto;
-
 }
 
 
+/*********************************
+5. Top Products 
+*********************************/
 
+.top_products {
+	padding: 119px 0 119px 0;
+	z-index: 2;
+	background-color: white;
+}
+.top_products_title {
+	font-size: 30px;
+	font-weight: 500;
+	color: rgb(20, 20, 20);
+	padding-bottom: 10px;
+}
+.top_products_title_border {
+	height: 3px;
+	width: 80px;
+	background-color: rgb(20, 20, 20);
+	margin: 0 auto;
+}
+.top_products_row {
+	height: 400px;
+}
 
 
 
