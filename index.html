@@ -9,8 +9,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
@@ -32,11 +34,11 @@
 								<div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
 								<nav class="main_nav">
 									<ul>
-										<li class="active"><a href="#">Home</a></li>
-										<li><a href="shop.html">Shop</a></li>
-										<li><a href="">Instructions</a></li>
-										<li><a href="gallery.html">Gallery</a></li>
-										<li><a href="contact.html">Contacts</a></li>
+										<li class="active"><a href="#" data-i18n="raptor-menu-home">Home</a></li>
+										<li><a href="shop.html" data-i18n="raptor-menu-shop">Shop</a></li>
+										<li><a href="" data-i18n="raptor-menu-instructions">Instructions</a></li>
+										<li><a href="gallery.html" data-i18n="raptor-menu-gallery">Gallery</a></li>
+										<li><a href="contact.html" data-i18n="raptor-menu-contacts">Contacts</a></li>
 									</ul>
 								</nav>
 								<div class="ec-cart-widget"></div>
@@ -57,9 +59,9 @@
 
 			<div class="langChange">
 				<ul>
-					<li class="ru"><a href="#"><img src="images/russia-flag.png" alt=""></a></li>
-					<li class="lv"><a href="#"> <img src="images/lv-flag.png" alt=""> </a></li>
-					<li class="eng"><a href="#"><img src="images/eng-flag.png" alt=""></a></li>
+					<li class="ru"><a href="#"><img src="images/russia-flag.png" alt="russian flag"></a></li>
+					<li class="lv"><a href="#"><img src="images/lv-flag.png" alt="latvian flag"></a></li>
+					<li class="eng"><a href="#"><img src="images/eng-flag.png" alt="great britain flag"></a></li>
 				</ul>
 			</div>
 		</header>
@@ -70,11 +72,15 @@
 			<div class="menu_container menu_mm">
 				<div class="page_menu_content">
 					<ul class="page_menu_nav menu_mm">
-						<li class="page_menu_item menu_mm"><a href="#">Home</a></li>
-						<li class="page_menu_item menu_mm"><a href="shop.html">Shop</a></li>
-						<li class="page_menu_item menu_mm"><a href="">Instructions</a></li>
-						<li class="page_menu_item menu_mm"><a href="gallery.html">Gallery</a></li>
-						<li class="page_menu_item menu_mm"><a href="contact.html">Contacts</a></li>
+						<li class="page_menu_item menu_mm"><a href="#" data-i18n="raptor-menu-home">Home</a></li>
+						<li class="page_menu_item menu_mm"><a href="shop.html" data-i18n="raptor-menu-shop">Shop</a>
+						</li>
+						<li class="page_menu_item menu_mm"><a href=""
+								data-i18n="raptor-menu-instructions">Instructions</a></li>
+						<li class="page_menu_item menu_mm"><a href="gallery.html"
+								data-i18n="raptor-menu-gallery">Gallery</a></li>
+						<li class="page_menu_item menu_mm"><a href="contact.html"
+								data-i18n="raptor-menu-contacts">Contacts</a></li>
 					</ul>
 				</div>
 				<div class="langChangeSmall">
@@ -106,11 +112,15 @@
 									<div class="col">
 										<div class="home_slider_content" data-animation-in="fadeIn"
 											data-animation-out="animate-out fadeOut">
-											<div class="home_slider_title">Защитное покрытие повышенной прочности</div>
-											<div class="home_slider_subtitle">Lorem ipsum dolor sit amet, consectetur
+											<div class="home_slider_title" data-i18n="raptor-carousel-first-title">
+												Защитное покрытие повышенной прочности</div>
+											<div class="home_slider_subtitle"
+												data-i18n="raptor-carousel-first-description">Lorem ipsum dolor sit
+												amet, consectetur
 												adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed
 												viverra velit venenatis fermentum luctus.</div>
-											<div class="button button_light home_button"><a href="#">Shop Now</a></div>
+											<div class="button button_light home_button"><a href="#"
+													data-i18n="raptor-buy-now">Buy Now</a></div>
 										</div>
 									</div>
 								</div>
@@ -128,11 +138,15 @@
 									<div class="col">
 										<div class="home_slider_content" data-animation-in="fadeIn"
 											data-animation-out="animate-out fadeOut">
-											<div class="home_slider_title">A new Online Shop experience.</div>
-											<div class="home_slider_subtitle">Lorem ipsum dolor sit amet, consectetur
+											<div class="home_slider_title" data-i18n="raptor-carousel-first-title">
+												Защитное покрытие повышенной прочности</div>
+											<div class="home_slider_subtitle"
+												data-i18n="raptor-carousel-first-description">Lorem ipsum dolor sit
+												amet, consectetur
 												adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed
 												viverra velit venenatis fermentum luctus.</div>
-											<div class="button button_light home_button"><a href="#">Shop Now</a></div>
+											<div class="button button_light home_button"><a href="#"
+													data-i18n="raptor-buy-now">Buy Now</a></div>
 										</div>
 									</div>
 								</div>
@@ -150,11 +164,15 @@
 									<div class="col">
 										<div class="home_slider_content" data-animation-in="fadeIn"
 											data-animation-out="animate-out fadeOut">
-											<div class="home_slider_title">A new Online Shop experience.</div>
-											<div class="home_slider_subtitle">Lorem ipsum dolor sit amet, consectetur
+											<div class="home_slider_title" data-i18n="raptor-carousel-first-title">
+												Защитное покрытие повышенной прочности</div>
+											<div class="home_slider_subtitle"
+												data-i18n="raptor-carousel-first-description">Lorem ipsum dolor sit
+												amet, consectetur
 												adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sed
 												viverra velit venenatis fermentum luctus.</div>
-											<div class="button button_light home_button"><a href="#">Shop Now</a></div>
+											<div class="button button_light home_button"><a href="#"
+													data-i18n="raptor-buy-now">Buy Now</a></div>
 										</div>
 									</div>
 								</div>
@@ -193,14 +211,13 @@
 				<div class="row">
 					<div class="col-lg-12 ">
 						<div class="about_content text-center">
-							<div class="about_title">About Our Product</div>
-							<div class="about_title_border" ></div>
-							<div class="about_text">Двухкомпонентное уретановое защитное покрытие повышенной прочности
-								против ржавчины, коррозии, солей, плесени и экстремальных температур. RAPTOR
-								восстанавливает максимально изношенные поверхности пикапов и грузовиков. Образует
-								поверхность повышенной прочности устойчивую к механическим повреждениям и
-								ультрафиолетовому излучению. Обладает высокой адгезией, быстрым временем сушки,
-								водоотталкивающими и шумоизоляционными свойствами.
+							<div class="about_title" data-i18n="raptor-about-product-title">What is Raptor?</div>
+							<div class="about_title_border"></div>
+							<div class="about_text" data-i18n="raptor-about-product-description">Two-component,
+								high-strength urethane protective coating against rust, corrosion, salt, mildew and
+								extreme temperatures. RAPTOR restores the most worn surfaces of pickups and trucks.
+								Forms high strength surface resistant to mechanical damage and ultraviolet radiation.
+								Possesses high adhesion, fast drying time, water-repellent and soundproofing properties.
 							</div>
 
 						</div>
@@ -213,17 +230,17 @@
 
 		<div class="icon_boxes">
 			<div class="container">
-				<div class="icon_boxes_title text-center">
+				<div class="icon_boxes_title text-center" data-i18n="raptor-why-raptor-title">
 					Why Raptor?
 				</div>
-				<div class="icon_boxes_title_border" ></div>
+				<div class="icon_boxes_title_border"></div>
 				<div class="row icon_box_row">
 
 					<!-- Icon Box -->
 					<div class="col-lg-3 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon-box-1.png" alt=""></div>
-							<div class="icon_box_title">Защита от царапин и повреждений</div>
+							<div class="icon_box_title" data-i18n="raptor-why-raptor-1">Защита от царапин и повреждений</div>
 						</div>
 					</div>
 
@@ -233,7 +250,7 @@
 							<div class="icon_box_image">
 								<img src="images/icon-2.png" alt="">
 							</div>
-							<div class="icon_box_title"> 	 Защита от коррозии</div>
+							<div class="icon_box_title" data-i18n="raptor-why-raptor-2">Защита от коррозии</div>
 						</div>
 					</div>
 
@@ -241,7 +258,7 @@
 					<div class="col-lg-3 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon-3.png" alt=""></div>
-							<div class="icon_box_title">Возможность покраски в любой цвет</div>
+							<div class="icon_box_title" data-i18n="raptor-why-raptor-3">Возможность покраски в любой цвет</div>
 						</div>
 					</div>
 
@@ -249,7 +266,7 @@
 					<div class="col-lg-3 icon_box_col">
 						<div class="icon_box">
 							<div class="icon_box_image"><img src="images/icon-box-1.png" alt=""></div>
-							<div class="icon_box_title">Придает неповторимый вид</div>
+							<div class="icon_box_title" data-i18n="raptor-why-raptor-4">Придает неповторимый вид</div>
 						</div>
 					</div>
 				</div>
@@ -265,12 +282,12 @@
 			<div class="top_products_title text-center">
 				Top Products
 			</div>
-			<div class="top_products_title_border" ></div>
+			<div class="top_products_title_border"></div>
 			<div class="top_products_row">
 
 			</div>
 
-			<div class="button button_dark icon_boxes_button"><a href="shop.html">Shop Now</a></div>
+			<div class="button button_dark icon_boxes_button"><a href="shop.html" data-i18n="raptor-buy-now">Buy Now</a></div>
 		</div>
 
 
@@ -309,6 +326,15 @@
 	<script src="plugins/easing/easing.js"></script>
 	<script src="plugins/parallax-js-master/parallax.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="plugins/i18n/jquery.i18n.js"></script>
+	<script src="plugins/i18n/jquery.i18n.messagestore.js"></script>
+	<script src="plugins/i18n/jquery.i18n.fallbacks.js"></script>
+	<script src="plugins/i18n/jquery.i18n.parser.js"></script>
+	<script src="plugins/i18n/jquery.i18n.emitter.js"></script>
+	<script src="plugins/i18n/jquery.i18n.emitter.bidi.js"></script>
+	<script src="plugins/i18n/jquery.i18n.language.js"></script>
+
+	<script src="js/i18n.js"></script>
 </body>
 
 </html>

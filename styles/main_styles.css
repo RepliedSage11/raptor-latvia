@@ -760,10 +760,10 @@ Home Page
 	background-image:url(../images/homeMainPic.png); /* remove later */
 }
 .home_slider_background_2 {
-	background-image:url(../images/home_slider_1.jpg); /* remove later */
+	background-image:url(../images/homeMainPic.png);/* remove later */
 }
 .home_slider_background_3 {
-	background-image:url(../images/home_slider_1.jpg); /* remove later */
+	background-image:url(../images/homeMainPic.png); /* remove later */
 }
 .home_slider_content_container
 {
