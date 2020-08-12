@@ -542,6 +542,11 @@ section
 {
 	display: inline-block;
 }
+
+.langChange ul li.active a img {
+	opacity: 1;
+}
+
 .langChange ul li:not(:last-child)
 {
 	margin-right: 18px;
