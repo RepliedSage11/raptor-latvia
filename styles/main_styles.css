@@ -859,6 +859,9 @@ Home Page
 	background-color: white;
 	padding: 89px 0 144px 0;
 }
+.pdf-container {
+	padding-top:40px;
+}
 
 .about_title {
 	font-size: 30px;
@@ -978,7 +981,9 @@ Shop Page
 /*********************************
 1. Products
 *********************************/
-
+.row.gallery-row {
+	margin-bottom: 30px
+}
 .products
 {
 	width: 100%;
@@ -1095,3 +1100,31 @@ Gallery
 {
 	max-width: 100%;
 }
+
+.loader {
+	position:fixed;
+	top:50% !important;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index:100;
+	color:#fff;
+}
+
+#main {
+	opacity: 0;
+}
+
+.loader img {
+	width: 200px;
+	opacity: 1;
+}
+
+.loader img.animated {
+	width: 1200px;
+	opacity: 0;
+}
+
+#pdf {
+	height: 800px;
+}
+

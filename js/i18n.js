@@ -21,7 +21,23 @@ $.i18n({ locale: 'en' }).load(
 			"raptor-why-raptor-2": "Corrosion protection",
 			"raptor-why-raptor-3": "Paint in any color",
 			"raptor-why-raptor-4": "Gives a unique look",
-			"raptor": "Contacts"
+			"raptor-contacts-title": "Contacts",
+			"raptor-contacts-title2": "Get In Touch",
+			"raptor-contacts-desc": "Send us a message",
+			"raptor-contacts-firstname": "First Name",
+			"raptor-contacts-lastname": "Last Name",
+			"raptor-contacts-subject": "Subject",
+			"raptor-contacts-message": "Message",
+			"raptor-contacts-send-message": "Send Message",
+			"raptor-contacts-address": "Address",
+			"raptor-contacts-shop": "Shop",
+			"raptor-contacts-warehouse": "Warehouse",
+			"raptor-contacts-phone": "Phone",
+			"raptor-contacts-email": "Email",
+			"raptor-business-hours": "Business Hours",
+			"raptor-business-hours-monfri": "Mon - Fri",
+			"raptor-business-hours-saturday": "Saturday",
+			"raptor-business-hours-sunday": "Sunday"
 		},
 		"lv": {
 			"raptor-title": "Raptor",
@@ -44,7 +60,23 @@ $.i18n({ locale: 'en' }).load(
 			"raptor-why-raptor-2": "Aizsardzība pret koroziju",
 			"raptor-why-raptor-3": "Krāsošana jebkurā krāsā",
 			"raptor-why-raptor-4": "Piešķir unikālu izskatu",
-			"raptor": "Kontakti"
+			"raptor-contacts-title": "Kontakti",
+			"raptor-contacts-title2": "Sazinies ar mums",
+			"raptor-contacts-desc": "Nosūtiet mums ziņojumu",
+			"raptor-contacts-firstname": "Vārds",
+			"raptor-contacts-lastname": "Uzvārds",
+			"raptor-contacts-subject": "Tēma",
+			"raptor-contacts-message": "Ziņojums",
+			"raptor-contacts-send-message": "Nosūtit ziņu",
+			"raptor-contacts-address": "Adrese",
+			"raptor-contacts-shop": "Veikals",
+			"raptor-contacts-warehouse": "Noliktava",
+			"raptor-contacts-phone": "Tālrunis",
+			"raptor-contacts-email": "E-pasts",
+			"raptor-business-hours": "Darba laiks",
+			"raptor-business-hours-monfri": "P - Pk",
+			"raptor-business-hours-saturday": "Sestdiena",
+			"raptor-business-hours-sunday": "Svētdiena"
 		},
 		"ru": {
 			"raptor-title": "Raptor",
@@ -67,7 +99,23 @@ $.i18n({ locale: 'en' }).load(
 			"raptor-why-raptor-2": "Защита от коррозии",
 			"raptor-why-raptor-3": "Покраска в любой цвет",
 			"raptor-why-raptor-4": "Придает неповторимый вид",
-			"raptor": "Контакты"
+			"raptor-contacts-title": "Контакты",
+			"raptor-contacts-title2": "Свяжитесь с нами",
+			"raptor-contacts-desc": "Отправьте нам сообщение",
+			"raptor-contacts-firstname": "Имя",
+			"raptor-contacts-lastname": "Фамилия",
+			"raptor-contacts-subject": "Тема",
+			"raptor-contacts-message": "Сообщение",
+			"raptor-contacts-send-message": "Отправить",
+			"raptor-contacts-address": "Адрес",
+			"raptor-contacts-shop": "Магазин",
+			"raptor-contacts-warehouse": "Склад",
+			"raptor-contacts-phone": "Телефон",
+			"raptor-contacts-email": "Эл. почта",
+			"raptor-business-hours": "Рабочее время",
+			"raptor-business-hours-monfri": "Пн - Пт",
+			"raptor-business-hours-saturday": "Суббота",
+			"raptor-business-hours-sunday": "Воскресенье"
 		}
 	}
 );
@@ -75,8 +123,12 @@ $.i18n({ locale: 'en' }).load(
 if (!window.localStorage.getItem('lang')) {
 	window.localStorage.setItem('lang', $.i18n().locale);
 }
-const language = window.localStorage.getItem('lang');
+let language = window.localStorage.getItem('lang');
 $.i18n().locale = language;
+
+if ($('#pdf').length) {
+	PDFObject.embed(`pdf/RAPTOR_${language}.pdf`, "#pdf");
+}
 
 $('.langChange li#' + language).addClass('active');
 
@@ -85,8 +137,15 @@ $('.langChange li').click(function (e) {
 	if (el.attr('id') !== language) {
 		$('.langChange li.active').removeClass('active');
 		el.addClass('active');
+		language = this.id;
 		$.i18n().locale = this.id;
+		window.localStorage.setItem('lang', this.id);
 		$('body').i18n();
+		
+		if ($('#pdf').length) {
+			PDFObject.embed(`pdf/RAPTOR_${language}.pdf`, "#pdf");
+		}
+
 	}
 });
 

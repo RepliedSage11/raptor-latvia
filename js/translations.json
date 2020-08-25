@@ -101,24 +101,89 @@
         "ru": "Придает неповторимый вид",
         "lv": "Piešķir unikālu izskatu"
     },
-    "raptor": {
+    "raptor-contacts-title": {
         "en": "Contacts",
         "ru": "Контакты",
         "lv": "Kontakti"
     },
-    "raptor": {
-        "en": "Contacts",
-        "ru": "Контакты",
-        "lv": "Kontakti"
+    "raptor-contacts-title2": {
+        "en": "Get In Touch",
+        "ru": "Свяжитесь с нами",
+        "lv": "Sazinies ar mums"
     },
-    "raptor": {
-        "en": "Contacts",
-        "ru": "Контакты",
-        "lv": "Kontakti"
+    "raptor-contacts-desc": {
+        "en": "Send us a message",
+        "ru": "Отправьте нам сообщение",
+        "lv": "Nosūtiet mums ziņojumu"
     },
-    "raptor": {
-        "en": "Contacts",
-        "ru": "Контакты",
-        "lv": "Kontakti"
+    "raptor-contacts-firstname": {
+        "en": "First Name",
+        "ru": "Имя",
+        "lv": "Vārds"
+    },
+    "raptor-contacts-lastname": {
+        "en": "Last Name",
+        "ru": "Фамилия",
+        "lv": "Uzvārds"
+    },
+    "raptor-contacts-subject": {
+        "en": "Subject",
+        "ru": "Тема",
+        "lv": "Tēma"
+    },
+    "raptor-contacts-message": {
+        "en": "Message",
+        "ru": "Сообщение",
+        "lv": "Ziņojums"
+    },
+    "raptor-contacts-send-message": {
+        "en": "Send Message",
+        "ru": "Отправить",
+        "lv": "Nosūtit ziņu"
+    },
+    "raptor-contacts-address": {
+        "en": "Address",
+        "ru": "Адрес",
+        "lv": "Adrese"
+    },
+    "raptor-contacts-shop": {
+        "en": "Shop",
+        "ru": "Магазин",
+        "lv": "Veikals"
+    },
+    "raptor-contacts-warehouse": {
+        "en": "Warehouse",
+        "ru": "Склад",
+        "lv": "Noliktava"
+    },
+    "raptor-contacts-phone": {
+        "en": "Phone",
+        "ru": "Телефон",
+        "lv": "Tālrunis"
+    },
+    "raptor-contacts-email": {
+        "en": "Email",
+        "ru": "Эл. почта",
+        "lv": "E-pasts"
+    },
+    "raptor-business-hours": {
+        "en": "Business Hours",
+        "ru": "Рабочее время",
+        "lv": "Darba laiks"
+    },
+    "raptor-business-hours-monfri": {
+        "en": "Mon - Fri",
+        "ru": "Пн - Пт",
+        "lv": "P - Pk"
+    },
+    "raptor-business-hours-saturday": {
+        "en": "Saturday",
+        "ru": "Суббота",
+        "lv": "Sestdiena"
+    },
+    "raptor-business-hours-sunday": {
+        "en": "Sunday",
+        "ru": "Воскресенье",
+        "lv": "Svētdiena"
     }
 }

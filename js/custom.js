@@ -1,31 +1,26 @@
-/* JS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Home Slider
-4. Init Search
-5. Init Menu
-6. Init Isotope
-
-
-******************************/
-
 $(document).ready(function () {
 	"use strict";
-
+	$('.loader img').animate({
+		width: "1200",
+		opacity: 0
+	}, 400);
+	$(".loader").fadeOut(500);
+	
+	
+	$("#main").animate({
+		opacity: "1"
+	}, 500);
+	
 	/* 
 
 	1. Vars and Inits
 
 	*/
+	
 
-	var header = $('.header');
-	var hambActive = false;
-	var menuActive = false;
+	const header = $('.header');
+	let hambActive = false;
+	let menuActive = false;
 
 	setHeader();
 
@@ -38,9 +33,7 @@ $(document).ready(function () {
 	});
 
 	initHomeSlider();
-	initSearch();
 	initMenu();
-	initIsotope();
 
 	/* 
 
@@ -51,8 +44,7 @@ $(document).ready(function () {
 	function setHeader() {
 		if ($(window).scrollTop() > 100) {
 			header.addClass('scrolled');
-		}
-		else {
+		} else {
 			header.removeClass('scrolled');
 		}
 	}
@@ -65,7 +57,7 @@ $(document).ready(function () {
 
 	function initHomeSlider() {
 		if ($('.home_slider').length) {
-			var homeSlider = $('.home_slider');
+			const homeSlider = $('.home_slider');
 			homeSlider.owlCarousel(
 				{
 					items: 1,
@@ -127,24 +119,7 @@ $(document).ready(function () {
 
 	/* 
 
-	4. Init Search
-
-	*/
-
-	function initSearch() {
-		if ($('.search').length && $('.search_panel').length) {
-			var search = $('.search');
-			var panel = $('.search_panel');
-
-			search.on('click', function () {
-				panel.toggleClass('active');
-			});
-		}
-	}
-
-	/* 
-
-	5. Init Menu
+	4. Init Menu
 
 	*/
 
@@ -180,23 +155,7 @@ $(document).ready(function () {
 					var item = $(this);
 
 					item.on('click', function (evt) {
-						if (item.hasClass('has-children')) {
-							evt.preventDefault();
-							evt.stopPropagation();
-							var subItem = item.find('> ul');
-							if (subItem.hasClass('active')) {
-								subItem.toggleClass('active');
-								TweenMax.to(subItem, 0.3, { height: 0 });
-							}
-							else {
-								subItem.toggleClass('active');
-								TweenMax.set(subItem, { height: "auto" });
-								TweenMax.from(subItem, 0.3, { height: 0 });
-							}
-						}
-						else {
-							evt.stopPropagation();
-						}
+						evt.stopPropagation();
 					});
 				});
 			}
@@ -217,45 +176,5 @@ $(document).ready(function () {
 		menuActive = false;
 	}
 
-	/* 
-
-	6. Init Isotope
-
-	*/
-
-	function initIsotope() {
-		var sortingButtons = $('.product_sorting_btn');
-		var sortNums = $('.num_sorting_btn');
-
-		if ($('.product_grid').length) {
-			var grid = $('.product_grid').isotope({
-				itemSelector: '.product',
-				layoutMode: 'fitRows',
-				fitRows:
-				{
-					gutter: 30
-				},
-				getSortData:
-				{
-					price: function (itemElement) {
-						var priceEle = $(itemElement).find('.product_price').text().replace('$', '');
-						return parseFloat(priceEle);
-					},
-					name: '.product_name',
-					stars: function (itemElement) {
-						var starsEle = $(itemElement).find('.rating');
-						var stars = starsEle.attr("data-rating");
-						return stars;
-					}
-				},
-				animationOptions:
-				{
-					duration: 750,
-					easing: 'linear',
-					queue: false
-				}
-			});
-		}
-	}
 
 });
