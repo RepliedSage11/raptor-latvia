@@ -1,0 +1,189 @@
+{
+    "raptor-title": {
+        "en": "Raptor",
+        "ru": "Raptor",
+        "lv": "Raptor"
+    },
+    "raptor-menu-home": {
+        "en": "Home",
+        "ru": "Главная",
+        "lv": "Galvenā"
+    },
+    "raptor-menu-shop": {
+        "en": "Buy Raptor",
+        "ru": "Купить Raptor",
+        "lv": "Nopirkt Raptor"
+    },
+    "raptor-menu-instructions": {
+        "en": "Instructions",
+        "ru": "Инструкция",
+        "lv": "Instrukcija"
+    },
+    "raptor-menu-gallery": {
+        "en": "Gallery",
+        "ru": "Галлерея",
+        "lv": "Galerija"
+    },
+    "raptor-menu-contacts": {
+        "en": "Contacts",
+        "ru": "Контакты",
+        "lv": "Kontakti"
+    },
+    "raptor-carousel-first-title": {
+        "en": "High strength protective coating",
+        "ru": "Защитное покрытие повышенной прочности",
+        "lv": "Augstas izturības aizsargpārklājums"
+    },
+    "raptor-carousel-first-description": {
+        "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "lv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus."
+    },
+    
+    "raptor-carousel-second-title": {
+        "en": "High strength protective coating",
+        "ru": "Защитное покрытие повышенной прочности",
+        "lv": "Augstas izturības aizsargpārklājums"
+    },
+    "raptor-carousel-second-description": {
+        "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "lv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus."
+    },
+    
+    "raptor-carousel-third-title": {
+        "en": "High strength protective coating",
+        "ru": "Защитное покрытие повышенной прочности",
+        "lv": "Augstas izturības aizsargpārklājums"
+    },
+    "raptor-carousel-third-description": {
+        "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "ru": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus.",
+        "lv": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros. Sedviverra velit venenatis fermentum luctus."
+    },
+    "raptor-buy-now": {
+        "en": "Buy Now",
+        "ru": "Купить",
+        "lv": "Nopirkt"
+    },
+    "raptor-about-product-title": {
+        "en": "What is Raptor?",
+        "ru": "Что такое Raptor?",
+        "lv": "Kas ir Raptor?"
+    },
+    "raptor-about-product-description": {
+        "en": "Two-component, high-strength urethane protective coating against rust, corrosion, salt, mildew and extreme temperatures. RAPTOR restores the most worn surfaces of pickups and trucks. Forms high strength surface resistant to mechanical damage and ultraviolet radiation. Possesses high adhesion, fast drying time, water-repellent and soundproofing properties.",
+        "ru": "Двухкомпонентное уретановое защитное покрытие повышенной прочности против ржавчины, коррозии, солей, плесени и экстремальных температур. RAPTOR восстанавливает максимально изношенные поверхности пикапов и грузовиков. Образует поверхность повышенной прочности устойчивую к механическим повреждениям и ультрафиолетовому излучению. Обладает высокой адгезией, быстрым временем сушки, водоотталкивающими и шумоизоляционными свойствами.",
+        "lv": "Divkomponentu uretāna paaugstinātas noturības aizsargpārklājums pret rūsu, koroziju, sāļiem, pelējumu un ekstremālām temperatūrām. U-POL: RAPTOR™ atjauno pikapu un kravas automobiļu maksimāli nolietotas virsmas. Veido pret mehāniskiem bojājumiem un ultravioleto starojumu izturīgu paaugstinātas noturības virskārtu. Piemīt augstas adhēzijas īpašības, ūdeni atgrūstošas un skaņas izolējošas īpašības, ātri žūstošs."
+    },
+    "raptor-why-raptor-title": {
+        "en": "Why Raptor?",
+        "ru": "Почему Raptor?",
+        "lv": "Kāpēc raptor?"
+    },
+    "raptor-why-raptor-1": {
+        "en": "Protection from scratches and damage",
+        "ru": "Защита от царапин и повреждений",
+        "lv": "Aizsardzība pret skrāpējumiem un bojājumiem"
+    },
+    "raptor-why-raptor-2": {
+        "en": "Corrosion protection",
+        "ru": "Защита от коррозии",
+        "lv": "Aizsardzība pret koroziju"
+    },
+    "raptor-why-raptor-3": {
+        "en": "Paint in any color",
+        "ru": "Покраска в любой цвет",
+        "lv": "Krāsošana jebkurā krāsā"
+    },
+    "raptor-why-raptor-4": {
+        "en": "Gives a unique look",
+        "ru": "Придает неповторимый вид",
+        "lv": "Piešķir unikālu izskatu"
+    },
+    "raptor-contacts-title": {
+        "en": "Contacts",
+        "ru": "Контакты",
+        "lv": "Kontakti"
+    },
+    "raptor-contacts-title2": {
+        "en": "Get In Touch",
+        "ru": "Свяжитесь с нами",
+        "lv": "Sazinies ar mums"
+    },
+    "raptor-contacts-desc": {
+        "en": "Send us a message",
+        "ru": "Отправьте нам сообщение",
+        "lv": "Nosūtiet mums ziņojumu"
+    },
+    "raptor-contacts-firstname": {
+        "en": "First Name",
+        "ru": "Имя",
+        "lv": "Vārds"
+    },
+    "raptor-contacts-lastname": {
+        "en": "Last Name",
+        "ru": "Фамилия",
+        "lv": "Uzvārds"
+    },
+    "raptor-contacts-subject": {
+        "en": "Subject",
+        "ru": "Тема",
+        "lv": "Tēma"
+    },
+    "raptor-contacts-message": {
+        "en": "Message",
+        "ru": "Сообщение",
+        "lv": "Ziņojums"
+    },
+    "raptor-contacts-send-message": {
+        "en": "Send Message",
+        "ru": "Отправить",
+        "lv": "Nosūtit ziņu"
+    },
+    "raptor-contacts-address": {
+        "en": "Address",
+        "ru": "Адрес",
+        "lv": "Adrese"
+    },
+    "raptor-contacts-shop": {
+        "en": "Shop",
+        "ru": "Магазин",
+        "lv": "Veikals"
+    },
+    "raptor-contacts-warehouse": {
+        "en": "Warehouse",
+        "ru": "Склад",
+        "lv": "Noliktava"
+    },
+    "raptor-contacts-phone": {
+        "en": "Phone",
+        "ru": "Телефон",
+        "lv": "Tālrunis"
+    },
+    "raptor-contacts-email": {
+        "en": "Email",
+        "ru": "Эл. почта",
+        "lv": "E-pasts"
+    },
+    "raptor-business-hours": {
+        "en": "Business Hours",
+        "ru": "Рабочее время",
+        "lv": "Darba laiks"
+    },
+    "raptor-business-hours-monfri": {
+        "en": "Mon - Fri",
+        "ru": "Пн - Пт",
+        "lv": "P - Pk"
+    },
+    "raptor-business-hours-saturday": {
+        "en": "Saturday",
+        "ru": "Суббота",
+        "lv": "Sestdiena"
+    },
+    "raptor-business-hours-sunday": {
+        "en": "Sunday",
+        "ru": "Воскресенье",
+        "lv": "Svētdiena"
+    }
+}
